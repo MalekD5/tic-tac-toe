@@ -1,0 +1,39 @@
+:root {
+  font-family: monospace;
+}
+
+text-center {
+  text-align: center;
+}
+
+#board {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  place-content: center;
+}
+
+#winner {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.board_sqaure {
+  width: 70px;
+  height: 70px;
+  border: none;
+  outline: 1px dashed red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.options {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}

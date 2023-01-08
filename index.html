@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h2 id="winner">Please enter your names to start the game</h2>
+    <div id='board'>
+        
+    </div>
+    <div class="options">
+        <div class="form">
+            <label for='p1'>
+                Player X: <input type='text' name='p1' id='p1' placeholder='player 1'/>
+            </label>
+            <label for='p2'>
+                Player O: <input type='text' name='p2' id='p2' placeholder='player 2'/>
+            </label>
+        </div>
+        <button type='button' onclick='displayController.start()'>Start game</button>
+        <button type='button' onclick='displayController.reset()'>Reset game</button>
+
+    </div>
+</body>
+</html>
